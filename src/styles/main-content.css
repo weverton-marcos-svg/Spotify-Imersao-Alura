@@ -4,7 +4,7 @@
     max-width: 80vw;
     height: 100vh;
     margin-left: 320px;
-    margin-right: 56px;   
+    margin-right: 56px;
 }
 
 .header__navigation{
@@ -73,7 +73,7 @@
     outline: none;
 }
 
-.header__login .subscribe {
+.header__login .subscribe{
     color: #a7a7a7;
     font-size: 16px;
     font-weight: 700;
