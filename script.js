@@ -33,8 +33,13 @@ function displayResults(result){
 document.addEventListener('input', function() {
     const searchTerm = searchInput.value.toLowerCase();
     if (searchTerm === ''){
-        resultPlaylist.classList.add('hidden');
-        resultsArtist.classList.remove('hidden');
+        /* Original */
+        // resultPlaylist.classList.add('hidden');
+        // resultsArtist.classList.remove('hidden');   
+
+        /* Volta pra tela inical quando apaga a pesquisa */
+        resultsArtist.classList.add('hidden');
+        resultPlaylist.classList.remove('hidden');
         return;
     }
 
